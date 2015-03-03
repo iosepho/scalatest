@@ -12,7 +12,7 @@ class EmailTest extends FunSuite{
     test("Email with invalid address")
     {
         intercept[IllegalArgumentException] {
-            Email("asdadsasdasd...")
+            Email("asdadssdasd...")
         }
     }
 }
